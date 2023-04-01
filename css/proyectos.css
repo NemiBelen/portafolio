@@ -1,0 +1,32 @@
+
+
+.proyectos-container{
+    width: 84%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.proyectos-items{
+ display: flex;
+ flex-flow: column;
+ justify-content: center;
+ align-items: center;
+ margin: 10px 0;
+ width: auto;
+}
+
+.proyecto-contenedor{
+    display: flex;   
+    flex-wrap: wrap;
+    align-content: center;
+     justify-content: space-between;
+}
+
+.proyectos-ref{
+    width: 350px;
+    
+}
+
+.proyectos-btn{
+    margin-top: 10px;
+}

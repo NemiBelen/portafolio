@@ -1,0 +1,38 @@
+
+.container-saludo{
+    width: 60%;
+}
+
+.saludo-titulo{
+    font-size: 8em;
+    font-weight: 700;
+    color: #BADFCE;
+}
+
+.saludo-nombre{
+    font-size: 3.25em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.saludo-btnCV{
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+
+
+.saludo-btnImg{
+    padding-left: 10px;
+}
+
+.seccion-saludo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 30px;
+    justify-content: center;
+}
+
+
+
