@@ -1,6 +1,8 @@
 .formulario{
     background-image: url(../img/fondo-contacto.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .formulario-form{
