@@ -1,6 +1,6 @@
 .formulario{
-    background-image: url(/img/fondo\ contacto.png);
- 
+    background-image: url(../img/fondo-contacto.png);
+    background-repeat: no-repeat;
 }
 
 .formulario-form{
@@ -88,3 +88,8 @@
     transition: all 0.25s;
   }
   
+  @media screen and (min-width: 300px) and (max-width: 500px){
+    .formulario{
+      width: 140%;
+    }
+  }

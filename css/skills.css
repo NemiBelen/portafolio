@@ -32,3 +32,22 @@
     font-weight: 700;
     padding-left: 10px;
 }
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .skills-items{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .skills{
+        width: 140%;
+    }
+    .skills-container{
+        justify-content: center;
+    }
+    .skills-items{
+        width: 35%;
+        margin: 5px;
+    }
+}

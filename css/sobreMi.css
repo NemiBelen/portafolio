@@ -1,6 +1,6 @@
 
 .sobreMi{
-    background-image: url(/img/Fondo\ Imagen.jpg);
+    background-image: url(../img/Fondo-Imagen.jpg);
     height: 435px;
     display: flex;
     align-items: center;
@@ -20,3 +20,8 @@
     padding-bottom: 20px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .sobreMi{
+        width: 140%;
+    }
+}

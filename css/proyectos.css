@@ -30,3 +30,18 @@
 .proyectos-btn{
     margin-top: 10px;
 }
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .proyectos-ref{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .proyectos{
+        width: 140%;
+    }
+    .proyecto-contenedor{
+        flex-direction: column;
+    }
+}
