@@ -1,52 +1,56 @@
 .header-container {
-  width: 84%;
-  margin: 0 auto;
+    width: 84%;
+    margin: 0 auto;
 }
 
 .headerPrincipal {
-  background: linear-gradient(180deg, #6fbb9a 0%, rgba(225, 241, 234, 0) 100%);
-  padding: 5px 0;
+    background: linear-gradient(
+        180deg,
+        #6fbb9a 0%,
+        rgba(225, 241, 234, 0) 100%
+    );
+    padding: 5px 0;
 }
 
 .headerPrincipal-titulo {
-  font-size: 1em;
-  margin-bottom: 20px;
-  font-weight: 700;
-  padding-top: 20px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: 700;
+    padding-top: 20px;
 }
 .container-logo:hover {
-  color: #008080;
+    color: #008080;
 }
 
 .container-logo {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .headerPrincipal-nav-link {
-  padding: 10px;
-  color: #464646;
-  text-decoration: none;
-  transition: 0.5s;
-  display: block;
+    padding: 10px;
+    color: #464646;
+    text-decoration: none;
+    transition: 0.5s;
+    display: block;
 }
 .headerPrincipal-nav-link:hover {
-  color: #008080;
+    color: #008080;
 }
 
 .headerPrincipal .header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .headerPrincipal-nav {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  .headerPrincipal-nav {
-    display: none;
-  }
+    .headerPrincipal-nav {
+        display: none;
+    }
 }

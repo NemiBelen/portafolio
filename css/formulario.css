@@ -1,100 +1,100 @@
 .formulario {
-  background-image: url(../img/fondo-contacto.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    background-image: url(../img/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .formulario-form {
-  width: 50%;
-  margin: 0 auto;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .input-container {
-  font-weight: 500;
-  position: relative;
-  margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  box-sizing: border-box;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
 }
 
 .input {
-  box-sizing: border-box;
-  border-bottom: 1px solid #008080;
-  padding: 1.375rem 0.5rem 0.5rem;
-  height: 3.25rem;
-  width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #008080;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
 }
 
 .input::placeholder {
-  visibility: hidden;
-  color: #00000000;
+    visibility: hidden;
+    color: #00000000;
 }
 
 .input:focus {
-  outline: none;
+    outline: none;
 }
 
 .input-label {
-  position: absolute;
-  top: 1.375rem;
-  left: 0.5rem;
-  transition: all 0.25s;
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    transition: all 0.25s;
 }
 
 .input:not(:placeholder-shown) + .input-label,
 .input:focus + .input-label {
-  font-size: 0.875rem;
-  top: 0.25rem;
-  transition: all 0.25s;
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
 }
 
 .textarea {
-  box-sizing: border-box;
-  border: 1px solid #008080;
-  padding: 0.5rem;
-  border-radius: 7px;
-  width: 100%;
-  min-height: 3rem;
+    box-sizing: border-box;
+    border: 1px solid #008080;
+    padding: 0.5rem;
+    border-radius: 7px;
+    width: 100%;
+    min-height: 3rem;
 }
 
 .textarea-container {
-  position: relative;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-weight: 500;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .textarea::placeholder {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 .textarea:focus {
-  outline: none;
+    outline: none;
 }
 
 .textarea-label {
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  transition: all 0.25s;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    transition: all 0.25s;
 }
 
 .textarea:not(:placeholder-shown) + .textarea-label,
 .textarea:focus + .textarea-label {
-  font-size: 0.875rem;
-  top: -1.25rem;
-  transition: all 0.25s;
+    font-size: 0.875rem;
+    top: -1.25rem;
+    transition: all 0.25s;
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  .formulario-form {
-    width: 80%;
-  }
+    .formulario-form {
+        width: 80%;
+    }
 
-  .formulario-form .boton {
-    max-width: 100%;
-  }
+    .formulario-form .boton {
+        max-width: 100%;
+    }
 }

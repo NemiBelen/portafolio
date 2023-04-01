@@ -1,73 +1,73 @@
 .container-saludo {
-  width: 60%;
+    width: 60%;
 }
 
 .saludo-titulo {
-  font-size: 8em;
-  font-weight: 700;
-  color: #badfce;
+    font-size: 8em;
+    font-weight: 700;
+    color: #badfce;
 }
 
 .saludo-nombre {
-  font-size: 3.25em;
-  font-weight: 700;
-  margin-bottom: 30px;
+    font-size: 3.25em;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .saludo-btnCV {
-  font-size: 1.25em;
-  font-weight: 700;
+    font-size: 1.25em;
+    font-weight: 700;
 }
 
 .saludo-btnImg {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 .seccion-saludo {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  margin: 30px 30px;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 30px;
+    justify-content: center;
 }
 
 @media screen and (min-width: 500px) and (max-width: 800px) {
-  .saludo-img {
-    width: 280px;
-  }
-  .saludo-titulo {
-    font-size: 7em;
-  }
-  .saludo-nombre {
-    font-size: 3em;
-  }
+    .saludo-img {
+        width: 280px;
+    }
+    .saludo-titulo {
+        font-size: 7em;
+    }
+    .saludo-nombre {
+        font-size: 3em;
+    }
 }
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  .saludo-img {
-    width: 180px;
-  }
-  .saludo-titulo {
-    font-size: 3em;
-  }
-  .saludo-nombre {
-    font-size: 2em;
-  }
-  .seccion-saludo {
-    flex-direction: column-reverse;
-    gap: 15px;
-  }
-  .container-saludo {
-    width: 100%;
-  }
-  .saludo-titulo,
-  .saludo-nombre {
-    text-align: center;
-  }
+    .saludo-img {
+        width: 180px;
+    }
+    .saludo-titulo {
+        font-size: 3em;
+    }
+    .saludo-nombre {
+        font-size: 2em;
+    }
+    .seccion-saludo {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    .container-saludo {
+        width: 100%;
+    }
+    .saludo-titulo,
+    .saludo-nombre {
+        text-align: center;
+    }
 
-  .container-saludo .boton {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    .container-saludo .boton {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
