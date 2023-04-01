@@ -1,9 +1,9 @@
-body{
-    background-color: #F5F5F5;
-    font-family: 'Raleway', Helvetica, sans-serif;
+body {
+    background-color: #f5f5f5;
+    font-family: "Raleway", Helvetica, sans-serif;
 }
 
-.boton{
+.boton {
     text-decoration: none;
     text-align: center;
     display: block;
@@ -16,30 +16,33 @@ body{
     color: white;
     background-color: #008080;
 }
-.boton:hover{
-    background-color: rgba(0, 128, 128, .6);
-   
+.boton:hover {
+    background-color: rgba(0, 128, 128, 0.6);
 }
 
-.principalTitulo{
+.principalTitulo {
     font-size: 2em;
     font-weight: 700;
-    text-align: center;  
+    text-align: center;
     padding-bottom: 20px;
 }
 
-.container{
+.container {
     width: 84%;
     margin: 0px auto;
     padding: 40px;
 }
 
-.seccion{
+.seccion {
     padding: 6em 0;
 }
 
-.titulo{
+.titulo {
     margin-bottom: 30px;
 }
 
-
+@media screen and (max-width: 560px) {
+    .container {
+        padding: 40px 20px;
+    }
+}

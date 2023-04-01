@@ -1,5 +1,4 @@
-
-.sobreMi{
+.sobreMi {
     background-image: url(../img/Fondo-Imagen.jpg);
     height: 435px;
     display: flex;
@@ -7,21 +6,18 @@
     justify-content: center;
 }
 
-.sobreMi-container{
+.sobreMi-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0 50px;
     width: 84%;
 }
-.sobreMi-titulo{
+.sobreMi-titulo {
     font-weight: 700;
     font-size: 1.5em;
     padding-bottom: 20px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 500px){
-    .sobreMi{
-        width: 140%;
-    }
+@media screen and (min-width: 300px) and (max-width: 500px) {
 }
