@@ -19,8 +19,12 @@
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
    
-    .footer{
-        width: 140%;
+    /* .footer{
+        width: 100%;
+    } */
+    .footer .container-footer{
+        flex-direction: column;
+        gap: 10px;
     }
    
 }

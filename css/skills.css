@@ -40,14 +40,17 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px){
-    .skills{
-        width: 140%;
-    }
-    .skills-container{
+    .skills-container {
         justify-content: center;
     }
-    .skills-items{
+
+    .skills-items {
         width: 35%;
         margin: 5px;
+        font-size: 0.8rem;
+    }
+    
+    .container-s {
+        width: 100%;
     }
 }

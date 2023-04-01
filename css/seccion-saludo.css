@@ -47,7 +47,7 @@
 }
 @media screen and (min-width: 300px) and (max-width: 500px) {
     .saludo-img{
-        width: 180px;
+        width: 150px;
     }
     .saludo-titulo{
         font-size: 3em;
@@ -55,9 +55,17 @@
     .saludo-nombre{
         font-size: 2em;
     }
+   
     .seccion-saludo{
-        width: 110%;
+       flex-direction: column-reverse;
+       gap: 15px;
     }
+    .container-saludo{
+        width: 100%;
+    }
+    .saludo-titulo,
+    .saludo-nombre {
+        text-align: center;}
 }
 
 

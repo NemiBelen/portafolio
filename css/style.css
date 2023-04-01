@@ -42,4 +42,9 @@ body{
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 560px) {
+    .container {
+        padding: 40px 20px;
+    }
+}
 
