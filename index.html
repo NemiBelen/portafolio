@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/proyectos.css">
     <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
     <header class="headerPrincipal">
@@ -41,7 +42,7 @@
         <div class="container-saludo">
             <h1 class="saludo-titulo">HOLA!</h1>
            <p class="saludo-nombre"> Mi nombre es <font color="#008080">Noemí Morales </font> 
-                soy analista programador</p>
+                soy una analista programadora</p>
             <a href="NoemíMorales-AnalistaProgramador.pdf"  class="saludo-btnCV boton" target="_blank">Descargar CV <img class="saludo-btnImg" src="/img/download.png" alt=""></a>
         </div>
         <img class="saludo-img" src="img/NoemiMorales.png" alt="" width="368">
@@ -50,9 +51,13 @@
         <section class="sobreMi" id="sobreMi">
             <div class="sobreMi-container">
                 <h1 class="sobreMi-titulo">Sobre <font color="#008080">mí</font></h1>
-                <p class="sobreMi-contenido">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. <br> Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. <br> Quisque gravida ex a mattis pretium. Suspendisse potenti. <br> Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+                <p class="sobreMi-contenido">Bienvenidos a mi portafolio web. Soy una analista programadora con experiencia en el desarrollo de aplicaciones web. Mi enfoque se centra en el desarrollo de software de alta calidad, escalable y seguro que satisfaga las necesidades de los clientes y usuarios finales. <br><br>
+                    En mi portafolio encontrarás ejemplos de algunos de mis proyectos pasados, incluyendo descripciones detalladas de cada uno. También he incluido mis habilidades y experiencia relevantes en mi curriculum vitae para que puedas obtener una idea más completa de mis capacidades.<br><br>
+
+                    Si estás interesado/a en trabajar conmigo o si tienes alguna pregunta, por favor no dudes en contactarme. Estoy siempre abierta a nuevas oportunidades y a discutir cómo puedo ayudar a que tu proyecto sea un éxito.
+
+                </p>
+                <p><br>¡Gracias por visitar mi portafolio web!</p>
             </div>
         </section>
 
@@ -94,24 +99,50 @@
         </section>
 
         <section class="proyectos seccion" id="proyectos">
-            <div class="proyectos-container">
-                <h1 class="principalTitulo titulo"><font color="#008080">Mis</font> proyectos</h1>
-
-                <div class="proyecto-contenedor">
-                    <div class="proyectos-items">
-                        <img src="img/proyecto1.png" alt="" class="proyectos-ref">
-                        <a href="https://nemibelen.github.io/Encriptador/" class="proyectos-btn boton">Codigo Encriptador</a>
-                    </div>
-                    <div class="proyectos-items">
-                        <img src="img/proyecto1.png" alt="" class="proyectos-ref">
-                        <a href="https://nemibelen.github.io/Encriptador/" class="proyectos-btn boton">Codigo Encriptador</a>
-                    </div>
-                    <div class="proyectos-items">
-                        <img src="img/proyecto1.png" alt="" class="proyectos-ref">
-                        <a href="https://nemibelen.github.io/Encriptador/" class="proyectos-btn boton">Codigo Encriptador</a>
-                    </div>
+          
+            <div id="carouselExampleDark" class="carousel carousel-dark slide proyectos-container">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-            </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <a href="https://nemimorales.github.io/Encriptador/" target="_blank">
+                        <img src="./img/Codigo-Encriptador.png" class="d-block w-100 opacity-25" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Código Encriptador</h5>
+                      <p>Transforma el contenido de un mensaje de texto en un formato ininteligible o difícil de leer para alguien que no tenga la clave de descifrado adecuada.</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <a href="https://org-nemibelen.vercel.app/" target="_blank">
+                        <img src="./img/Header@2x.png" class="d-block w-100 opacity-50" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Organizar Equipo</h5>
+                      <p>Creación de colaboradores de una organización mediante un formulario, también proporciona la opción de crear nuevos equipos y cambiar el color dependiendo del equipo.</p>
+                    </div>
+
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://smart-bank-xi.vercel.app">
+                    <img src="./img/Smart-Bank.png" class="d-block w-100 opacity-50" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Smart Bank</h5>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
 
         <section class="formulario seccion" id="formulario">
@@ -159,5 +190,6 @@
         </footer>
     </main>
    <script src="./enviar.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
