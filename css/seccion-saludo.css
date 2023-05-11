@@ -9,6 +9,11 @@
     color: #BADFCE;
 }
 
+.saludo-titulo:hover{
+    font-size: 9em;
+    transition: 3s;
+}
+
 .saludo-nombre{
     font-size: 3.25em;
     font-weight: 700;

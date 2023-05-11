@@ -6,6 +6,10 @@
 }
 /* items */
 
+.skills-img {
+    width: 40px;
+}
+
 .container-s{
  width: 84%;
     margin: 0 auto;
@@ -27,6 +31,13 @@
     margin: 10px 0;
     
 }
+.skills-items:hover {
+    background-color: rgba(0, 128, 128, 0.6);
+    width: 17%;
+    transition: 0.5s;
+    color: white;
+    
+}
 
 .skills-nombre{
     font-weight: 700;
@@ -34,8 +45,18 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 800px) {
-    .skills-items{
-        width: 20%;
+    .skills-container {
+        justify-content: center;
+    }
+
+    .skills-items {
+        width: 35%;
+        margin: 5px;
+        font-size: 0.8rem;
+    }
+    
+    .container-s {
+        width: 100%;
     }
 }
 
