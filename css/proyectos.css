@@ -27,6 +27,20 @@
     
 }
 
+.fondo-text{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    padding: 10px 10px;   
+    
+}
+
+.proyecto-img{
+    opacity: 0.5;
+}
+.proyecto-img:hover{
+    opacity: unset;
+}
+
 .proyectos-btn{
     margin-top: 10px;
 }
