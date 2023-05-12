@@ -44,7 +44,7 @@
     padding-left: 10px;
 }
 
-@media screen and (min-width: 500px) and (max-width: 800px) {
+@media screen and (min-width: 500px) and (max-width: 1000px) {
     .skills-container {
         justify-content: center;
     }

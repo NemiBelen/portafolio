@@ -21,7 +21,8 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px){
-    /* .sobreMi{
-        width: 140%;
-    } */
+    .sobreMi{
+        height: auto;
+        margin-bottom: 30px;
+    }
 }
